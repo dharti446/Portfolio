@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background-color: rgb(229, 229, 229,0.5);
+    background-color: white;
     width: 100%;
   }
   .name {
@@ -43,14 +43,14 @@ body{
   }
   
   .contact {
-    background-color: white;
+    background-color: rgb(107, 6, 201);
     padding: 10px;
-    color: black;
+    color: rgb(107, 6, 201);
     border-radius: 20px;
   }
   
   .name:hover {
-    background-color: rgb(106, 246, 106);
+    background-color: rgb(107, 6, 201);
     padding: 10px 20px;
     border-radius: 20px;
     transform: scale(1.1);
