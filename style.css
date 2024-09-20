@@ -1,0 +1,434 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    /* width: 100%; */
+    position: relative;
+}
+.navigation {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(229, 229, 229,0.5);
+    width: 100%;
+  }
+  .name {
+    margin: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 300ms ease-in-out;
+    color: #fca311;
+  }
+  
+  .action {
+    padding: 5px;
+    margin: 10px;
+    font-display: none;
+  }
+  
+  .link {
+    margin: 10px;
+    font-size: large;
+    font-display: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .contact {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+  }
+  
+  .name:hover {
+    background-color: rgb(106, 246, 106);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transform: scale(1.1);
+    color: white;
+  }
+  
+  .contact:hover {
+    background-color: greenyellow;
+  }
+  
+h1{
+    font-size: 40px;
+    padding:  5px 10px;
+    border-radius: 45px;
+}
+a{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(107, 6, 201);
+}
+.button{
+    background-color: rgb(107, 6, 201);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.para{
+    text-align: center;
+    width: 700px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 15px;
+}
+#idn{
+    margin-bottom: 10px;
+    color: rgb(107, 6, 201);
+    padding-bottom: 15px;
+}
+#tagline{
+    color: rgb(107, 6, 201);
+    font-weight: bold;
+}
+.fa-brands{
+    margin: 5px;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: rgb(107, 6, 201);
+    text-align: center;
+}
+.fa-solid{
+    margin: 5px;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: rgb(107, 6, 201);
+}
+.fa-regular{
+    margin: 5px;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: rgb(107, 6, 201);
+}
+#onelogo{
+    font-size: 50px;
+    cursor: pointer;
+}
+.imgp{
+    height: 450px;
+    width: 450px;
+    border-radius: 0;
+}
+.landing{
+    height: 40vh;
+    margin-bottom: 150px;
+}
+.heading {
+    margin-top: 65px;
+}
+.icon{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(228, 207, 248);
+    text-align: center;
+    margin-top: 50px;
+}
+.icon-og{
+    width: 25%;
+    font-size: 50px;
+    margin-top: 20px;
+    transition: all 100ms ease-out;
+}
+.icon-og:hover #lang{
+    opacity: 1;
+}
+.fa-brands{
+    font-size: 100px;
+}
+.html:hover{
+    font-size: 40px;
+}
+#lang {
+    opacity: 0;
+}
+.proheading{
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(107, 6, 201);
+}
+.project{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color: white;
+
+}
+.project1{
+    text-align: center;
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 6px;
+    padding: 20px;
+}
+.imgpro{
+    height: 70vh;
+    width: 70vh;
+    border-radius: 0%;
+}
+.project2{
+    text-align: center;
+    box-shadow: 5px 5px 50px black;
+    border-radius: 6px;
+    padding: 20px;
+}
+.imgpro{
+    height: 70vh;
+    width: 70vh;
+    border-radius: 0%;
+}
+.project3{
+    text-align: center;
+    box-shadow: 5px 5px 50px black;
+    border-radius: 6px;
+    padding: 20px;
+}
+.imgpro{
+    height: 70vh;
+    width: 70vh;
+    border-radius: 0%;
+}
+.project4{
+    text-align: center;
+    box-shadow: 5px 5px 50px black;
+    border-radius: 6px;
+    padding: 20px;
+}
+.imgpro{
+    width: 70vh;
+    border-radius: 0%;
+    
+}
+.footer{
+    margin-top: 50px;
+    height: 50vh;
+    background-color:  rgb(228, 207, 248);
+}
+.logofooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.dp{
+    margin-top: 50px;
+    height: 150px;
+    width: 200px;
+}
+.mail{
+    font-size: 35px;
+    color: rgb(107, 6, 201); 
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mail a{
+    margin: 20px;
+    font-size: 40px;
+}
+.copy{
+    font-size: 25px;
+    color: rgb(107, 6, 201);
+    display: flex;
+    justify-content: center;
+}
+.Email{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: gainsboro;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.Email i{
+    font-size: 35px;
+    animation-name: Mail;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes Mail{
+    0%{transform: scale(0.75);}
+    25%{transform: scale(1);}
+    50%{transform: scale(1.25);}
+    100%{transform: scale(0.75);}
+}
+
+@media screen and (max-width:430px){
+    .navigation {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: rgb(250, 234, 214,0.9);
+    }
+    .name {
+        margin: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 300ms ease-in-out;
+    }
+    .action {
+        padding: 3px;
+        margin: 5px;
+        font-display: none;
+    }
+    .link {
+        margin: 10px;
+        font-size: 12px;
+        font-display: none;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .contact {
+        background-color: #242424;
+        padding: 5px;
+        color: white;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    .name:hover {
+        background-color: blue;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 11px;
+        color: white;
+    }
+    .para{
+        text-align: center;
+        width: 380px;
+        font-size: 20px;
+        margin: 20px;
+        padding: 15px;
+    }
+    .icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .icons i
+     {
+        margin: 0px 20px;
+     }
+    #onelogo{
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .imgp{
+        width: 400px;
+        border-radius: 0;
+    }
+    .landing{
+        height: 30vh;
+    }
+    .icon-og{
+        width: 50%;
+        font-size: 20px;
+        margin-top: 20px;
+        transition: all 100ms ease-out;
+    }
+    .icon-og i{
+        font-size: 75px;
+    }
+    .project1{
+        text-align: center;
+        box-shadow: 5px 5px 50px gray;
+        border-radius: 6px;
+        padding: 20px;
+    }
+    .imgpro{
+        width: 300px;
+        height: 300px;
+        border-radius: 0%;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 50vh;
+        width: 100%;
+        background-color:  rgb(228, 207, 248);
+    }
+    
+    .logofooter img{
+        height: 150px;
+        width: 150px;
+    }
+    .mail a{
+         margin:10px;
+        font-size: 25px;
+        color: rgb(107, 6, 201); 
+        display: flex;
+        justify-content: center;
+    }
+    .Email{
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+        background-color: gainsboro;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 90px;
+        right: 20px;
+    }
+    .Email i{
+        font-size: 35px;
+        animation-name: Mail;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes Mail{
+        0%{transform: scale(0.75);}
+        25%{transform: scale(1);}
+        50%{transform: scale(1.25);}
+        100%{transform: scale(0.75);}
+    }
+    
+}
+
